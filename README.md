@@ -12,5 +12,21 @@ This project is developed on LTSPICEXVII Tool. In this Comparator output is give
 3. Download the Comparator.asc file and TSM180nm file in same drive and folder of the LTSPICE XVII installed.
 4. To Open the file go to file - open(Ctrl-O) - open the Comparator.asc.
 5. To see output and Input waveform click on the Simulate - run.
-6. Click on the Vout and V(in+) you will see the output and input waveforms.
+6. Click on the V(b) and V(b) you will see the output and input waveforms.
 <img src="Waveformimages/output-input.jpg">
+
+7. To see Hystersis Waveform right click on the input waveform V(in+) and copy V(in+) and click on the Delete the trace.
+8. Now give rightclick on the Horizontal axis and Horizontal axis window will pop-up.
+9. Paste the V(in+) you will see the Hystersis waveform.
+
+<img src = "Waveformimages/Hystersis.jpg">
+
+# Contact Information
+-> G.V.Gurendra Babu B.Tech (Electronics and Communication Engineering) VLITS, Guntur gurendra611@gmail.com 
+
+-> Kunalghosh Director VSD Corp.Pvt.ltd Kunalghosh@gmail.com 
+
+-> PHILIPP GUHRING Software Architect at LibreSilicon Association pg@futureware.at
+
+-> Dr. GAURAV TRIVEDI Co-Principal Investigator,ECIT Academy and Associative Professor, EEE Department,
+IIT Guwahati trivedi@iitg.ac.in
