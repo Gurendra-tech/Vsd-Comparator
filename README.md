@@ -15,9 +15,9 @@ This project is developed on LTSPICEXVII Tool. In this Comparator output is give
 6. Click on the V(b) and V(b) you will see the output and input waveforms.
 <img src="Waveformimages/output-input.jpg">
 
-7. To see Hystersis Waveform right click on the input waveform V(in+) and copy V(in+) and click on the Delete the trace.
+7. To see Hystersis Waveform right click on the input waveform V(a) and copy V(a) and click on the Delete the trace.
 8. Now give rightclick on the Horizontal axis and Horizontal axis window will pop-up.
-9. Paste the V(in+) you will see the Hystersis waveform.
+9. Paste the V(a) you will see the Hystersis waveform.
 
 <img src = "Waveformimages/Hystersis.jpg">
 
