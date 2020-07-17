@@ -1,0 +1,32 @@
+* C:\Users\Gurendra Babu\Desktop\stage3\final\comparatormod4_f.asc
+M1 N002 N002 N001 N005 pfet l=0.18u w=4u m=4
+M2 N003 N002 N001 N004 pfet l=0.18u w=4u m=4
+M3 N003 N003 N001 N001 pfet l=0.18u w=4u m=4
+M4 N002 N003 N001 N001 pfet l=0.18u w=4u m=4
+M5 N009 N002 N001 N006 pfet l=0.18u w=4u m=4
+M6 N010 N003 N001 N007 pfet l=0.18u w=8u m=8
+M7 b N010 N008 N011 pfet l=0.18u w=8u m=8
+M8 b N010 0 0 nfet l=0.18u w=8u m=8
+M9 N010 N009 N013 0 nfet l=0.18u w=8u m=8
+M10 N013 N009 0 0 nfet l=0.18u w=8u m=8
+M11 N003 a N012 0 nfet l=0.18u w=2u m=2
+M12 N002 IN- N012 0 nfet l=0.18u w=2u m=2
+M13 N012 IPOL N016 0 nfet l=0.18u w=4u m=2
+M14 N016 IPOL 0 0 nfet l=0.18u w=4u m=2
+M15 N009 N009 N014 0 nfet l=0.18u w=8u m=8
+M16 N014 N009 0 N017 nfet l=0.18u w=8u m=8
+M17 IPOL IPOL N015 0 nfet l=0.18u w=8u m=4
+M18 N015 IPOL 0 0 nfet l=0.18u w=8u m=4
+I1 0 IPOL 200nA
+C1 b 0 1p
+V1 N008 0 1.8v
+V2 N001 0 PULSE(0 3.3 0 100u 0 10m)
+V3 IN- 0 PULSE(0 1.5 0 1u 0 10m)
+V4 a 0 PULSE(0 3 0 2m 2m 0)
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\Gurendra Babu\Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 6m
+.inculde tsmc018.m
+.backanno
+.end
