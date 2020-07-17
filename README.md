@@ -13,3 +13,4 @@ This project is developed on LTSPICEXVII Tool. In this Comparator output is give
 4. To Open the file go to file - open(Ctrl-O) - open the Comparator.asc.
 5. To see output and Input waveform click on the Simulate - run.
 6. Click on the Vout and V(in+) you will see the output and input waveforms.
+<img src="outputp-input.jpg">
